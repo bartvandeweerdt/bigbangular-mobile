@@ -25,7 +25,7 @@ angular.module('bigbang.controllers.person', [])
         promise.then(function (data) {
             person = $scope.person = data;
             $scope.title = person.name;
-            $scope.imagepath = '/img/'+person.id+'.jpg';
+            $scope.imagepath = './img/'+person.id+'.jpg';
         }, function (reason) {
             alert('Could not get person. \nReason: ' + reason);
         });
