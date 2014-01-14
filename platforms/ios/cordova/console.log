@@ -1,0 +1,18 @@
+2014-01-03 13:45:24.040 Todo[4412:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-03 13:45:24.063 Todo[4412:80b] Unlimited access to network resources
+2014-01-03 13:45:24.386 Todo[4412:80b] Resetting plugins due to page load.
+2014-01-03 13:45:24.496 Todo[4412:80b] Finished load of: file:///Users/bart/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/3D8199FE-7659-4993-9682-F8C17493D675/Todo.app/www/index.html
+2014-01-03 13:45:24.524 Todo[4412:80b] Received Event: deviceready
+2014-01-03 14:40:37.253 Todo[5542:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-03 14:40:37.259 Todo[5542:80b] Unlimited access to network resources
+2014-01-03 14:40:37.351 Todo[5542:80b] Resetting plugins due to page load.
+2014-01-03 14:40:37.579 Todo[5542:80b] Finished load of: file:///Users/bart/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/3D8199FE-7659-4993-9682-F8C17493D675/Todo.app/www/index.html
+2014-01-03 14:57:17.764 Todo[6375:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-03 14:57:17.774 Todo[6375:80b] Unlimited access to network resources
+2014-01-03 14:57:18.082 Todo[6375:80b] Resetting plugins due to page load.
+2014-01-03 14:57:31.616 Todo[6375:4003] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-01-03 14:57:31.669 Todo[6375:80b] Finished load of: file:///Users/bart/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/3D8199FE-7659-4993-9682-F8C17493D675/Todo.app/www/index.html
+2014-01-12 21:51:27.608 Todo[5179:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-12 21:51:27.631 Todo[5179:80b] Unlimited access to network resources
+2014-01-12 21:51:27.967 Todo[5179:80b] Resetting plugins due to page load.
+2014-01-12 21:51:28.160 Todo[5179:80b] Finished load of: file:///Users/bart/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/3D8199FE-7659-4993-9682-F8C17493D675/Todo.app/www/index.html#/person

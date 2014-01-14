@@ -1,0 +1,52 @@
+<nav-page title="title">
+
+    <content has-header="true" scroll="false">
+        <list>
+            <item ng-repeat="person in persons" item="person" href="#/person/{{person.id}}">
+                {{person.name}}
+            </item>
+        </list>
+    </content>
+
+</nav-page>
+
+<!--
+<side-menus>
+
+    <pane side-menu-content>
+        <header class="bar bar-header bar-dark">
+            <button class="button button-icon" ng-click="toggleProjects()">
+                <i class="icon ion-navicon"></i>
+            </button>
+            <h1 class="title">{{activeProject.title}}</h1>
+            <button class="button button-clear" ng-click="newTask()">
+                New
+            </button>
+        </header>
+        <content has-header="true" scroll="false">
+            <list option-buttons="itemButtons" >
+                <item ng-repeat="task in activeProject.tasks" item="task">
+                    {{task.title}}
+                </item>
+            </list>
+        </content>
+    </pane>
+
+    <side-menu side="left">
+        <header class="bar bar-header bar-dark">
+            <h1 class="title">Projects</h1>
+            <button class="button button-icon" ng-click="newProject()">
+                <i class="icon ion-plus"></i>
+            </button>
+        </header>
+        <content has-header="true" scroll="false">
+            <list>
+                <item ng-repeat="project in projects" ng-click="selectProject(project)" ng-class="{active: activeProject == project};" >
+                    {{project.title}}
+                </item>
+            </list>
+        </content>
+    </side-menu>
+
+</side-menus>
+-->
