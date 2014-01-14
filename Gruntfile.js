@@ -93,8 +93,7 @@ module.exports = function (grunt) {
           dot: true,
           src: [
             '.tmp',
-            '<%= yeoman.dist %>/*',
-            '!<%= yeoman.dist %>/.git*'
+            '<%= yeoman.dist %>'
           ]
         }]
       },
