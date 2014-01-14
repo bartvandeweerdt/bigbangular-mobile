@@ -139,9 +139,9 @@ module.exports = function (grunt) {
       dist: {
         files: {
           src: [
-            '<%= yeoman.dist %>/scripts/{,*/}*.js',
+            '<%= yeoman.dist %>/scripts/**/*.js',
             '<%= yeoman.dist %>/styles/{,*/}*.css',
-            '<%= yeoman.dist %>/img/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+            //'<%= yeoman.dist %>/img/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',  //removed because image paths are loaded in my controller (bart)
             '<%= yeoman.dist %>/styles/fonts/*'
           ]
         }
@@ -250,17 +250,17 @@ module.exports = function (grunt) {
         singleRun: true
       }
     },
-    cdnify: {
+    /*cdnify: {
       dist: {
         html: ['<%= yeoman.dist %>/*.html']
       }
-    },
+    },*/
     ngmin: {
       dist: {
         files: [{
           expand: true,
           cwd: '<%= yeoman.dist %>/scripts',
-          src: '*.js',
+          src: '**/*.js',
           dest: '<%= yeoman.dist %>/scripts'
         }]
       }
@@ -301,11 +301,11 @@ module.exports = function (grunt) {
     'clean:dist',
     'useminPrepare',
     'concurrent:dist',
-    //'concat',
+    'concat',
     'copy',
-    'cdnify',
+    //'cdnify',
     'ngmin',
-    //'cssmin',
+    'cssmin',
     'uglify',
     'rev',
     'usemin'

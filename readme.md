@@ -1,6 +1,21 @@
-python -m SimpleHTTPServer 8000
+bigbangular-mobile
+===============
 
-cordova build ios
-cordova emulate ios
+Web server
+---------------
+Start a simple webserver and open a browser to the app by running:
 
-cordova prepare ios
+	python -m SimpleHTTPServer 8000
+or
+
+	grunt serer	
+
+Cordova
+------------
+Commands:
+
+	cordova build ios
+	cordova emulate ios
+
+	cordova prepare ios
+
